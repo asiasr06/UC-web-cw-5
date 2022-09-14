@@ -8,8 +8,8 @@ if (grade > 100) {message =" يرجى إخال قيمة صحيحة بين ال10
     else if (grade >= 80) {message = "لقد حصلت على جيد جداً🤩";}
     else if (grade >= 70) {message = "لقد حصلت على جيد🙂";}
     else if (grade >= 60) {message = "لقد حصلت على مقبول😕";}
-    else if (grade >= 50) (message = "لقد حصلت على ضعيف☹️";)
-    else {message = "راسب💔"}
+    else if (grade >= 50) {message = "لقد حصلت على ضعيف☹️";}
+    else {message = "راسب💔";}
 
 console.log('%c' + message, 'color: #9514ff');
 
